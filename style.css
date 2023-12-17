@@ -871,7 +871,7 @@ display: none;
 
 @media (max-width:991.98px){
     .navbar{
-        /* position: relative; */
+        position: relative;
         padding: 0 1rem;
     }
    
@@ -903,6 +903,7 @@ display: none;
         position: absolute;
         top: 0;
         left: 0;
+        z-index: 9;
 
         display: flex;
         justify-content: center;
@@ -912,7 +913,7 @@ display: none;
         transition: all 0.5s linear;
         opacity: 0;
         visibility: hidden;
-        pointer-events: none;
+        
 
     }
 
